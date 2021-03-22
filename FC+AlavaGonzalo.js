@@ -10,7 +10,6 @@ function Usuario(nombre, apellido, libro, mascota) {
     this.getMascota = function(){return mascota};
     this.getBookAutor = function(){return autor};
    }       
-}
 
 let usuario = new Usuario("Raul", "Bernardino", "Ser como ellos", "Eduardo Galeano", 2);
 
