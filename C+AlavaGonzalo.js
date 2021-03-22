@@ -6,9 +6,13 @@ constructor (nombre, apellido, libro, mascota) {
 	this.mascota = mascota;
 	
 	this.getFullName = function(){return this.nombre + this.apellido};
+    this.addMascota = function(mascota){this.mascota + 1};
+    this.getMascota = function(){return mascota};
    }       
 }
 
-let raul = new Usuario("Raul", "Bernardino", "El libro de los abrazos", "Pedro")
+let usuario = new Usuario("Raul", "Bernardino", "El libro de los abrazos", 2);
 
-console.log(getFullName());
+console.log(usuario.getFullName());
+
+console.log(usuario.getMascota());
