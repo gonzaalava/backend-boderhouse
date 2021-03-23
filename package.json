@@ -15,8 +15,9 @@
     "url": "https://github.com/gonzaalava/backend-boderhouse/issues"
   },
   "homepage": "https://github.com/gonzaalava/backend-boderhouse#readme",
-  "description": "",
   "devDependencies": {
     "typescript": "^4.2.3"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }

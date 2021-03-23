@@ -1,5 +1,5 @@
 const sum = (a,b) => a + b
-const substract = (a,b) => a - b
+const subtract = (a,b) => a - b
 const multiply = (a,b) => a * b 
 
 export const calc = (a, b, operation) => {
@@ -8,7 +8,7 @@ export const calc = (a, b, operation) => {
             console.log(sum(a,b))
             break
         case "subtract":
-            console.log(subtractk(a, b))
+            console.log(subtract(a, b))
             break
         case "multiply":
             console.log(multiply(a,b))
